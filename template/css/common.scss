@@ -1,0 +1,66 @@
+/*Eric Meyer’s “Reset CSS” 2.0*/
+@import "Eric_reset_css";
+
+html,
+body,
+#page{
+	height: 100%;
+}
+
+html{
+	width: 100%;
+	overflow-y: scroll;
+}
+
+body{
+	/*使用フォントによって追加、変更*/
+	font-family: "Hiragino Sans",sans-serif;
+
+	/*フォントのスムージング*/
+	-webkit-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-overflow-scrolling: touch;
+	
+	font-size: 14px;
+	color: #000;
+	line-height: 1.6;
+	letter-spacing: 0.03em;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+#page{
+	min-width: 1160px;
+	margin:0 auto;
+}
+
+@media screen and(max-width:768px) {
+	body {
+		min-width: 320px;
+		font-family: Hiragino Kaku Gothic ProN, Hiragino Kaku Gothic Pro, ＭＳ\ ゴシック, sans-serif;
+	}
+}
+
+#pagefoot{
+	
+	.footer-nav{
+		.footer-nav-list{
+			
+		}
+		.footer-nav-list li{
+			
+		}
+		.footer-nav-list li a{
+			
+		}
+		
+	}
+	
+	#copyright{
+		
+	}
+}

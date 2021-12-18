@@ -1,0 +1,38 @@
+$img_path: "../image/";
+
+#pagehead{
+	//背景画像を入力#{path}image_name.jpg
+	background: url(#{$img_path}.jpg) no-repeat;
+	width: 100%;
+	top: 0;
+	right: 0;
+	background-size:cover;
+	position: relative;
+	
+	.pageTitle{
+		
+	}
+	.pageSubTitle{
+		
+	}
+	#global{
+		.nav-list{
+			
+		}
+		.nav-list li{
+			
+		}
+		.nav-list li a{
+			
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
